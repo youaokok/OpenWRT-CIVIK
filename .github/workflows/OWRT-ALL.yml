@@ -30,7 +30,8 @@ jobs:
       fail-fast: false
       #max-parallel: 3
       matrix:
-        TARGET: [ROCKCHIP, X86]
+        TARGET: [X86]
+     #   TARGET: [ROCKCHIP, X86]
         SOURCE: [immortalwrt/immortalwrt]
         include:
           - TARGET: MEDIATEK

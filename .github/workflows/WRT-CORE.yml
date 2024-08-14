@@ -50,7 +50,7 @@ env:
   WRT_BRANCH: ${{inputs.WRT_BRANCH}}
   WRT_PACKAGE: ${{inputs.WRT_PACKAGE}}
   WRT_TEST: ${{inputs.WRT_TEST}}
-
+  DIY_SCRIPT: diy-script.sh
 jobs:
   wrt_core:
     name: ${{inputs.WRT_SOURCE}}
